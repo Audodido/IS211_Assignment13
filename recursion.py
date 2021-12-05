@@ -17,6 +17,7 @@ def gcd(a, b):
       
     return gcd(b % a, a)
 
+    
 #compare strings
 def compareTo(s1, s2):
     if len(s1) == 0 and len(s2) == 0:
